@@ -118,6 +118,7 @@
     
 
 ### OCP : 개방-폐쇄 원칙(Open/Closed principle)
+![Untitled (1)](https://github.com/OHLPstudy/ObjectOrientedProgramming_jyhwang/assets/78784311/d2a3e508-24e8-42b0-a19f-229d27fe2313)
 
 - 클래스는 확장에는 열려 있으나 변경에는 닫혀 있어야 한다.
 - 기능 추가 요청 시 → 클래스 확장을 통해 손쉽게 구현하면서, 확장에 따른 클래스 수정은 최소화
@@ -127,6 +128,7 @@
 - 다형성과 확장을 가능케 하는 객체지향 장점 극대화
 
 ### LSP : 리스코프 치환 원칙(Liskov Substitution Principle)
+![Untitled (2)](https://github.com/OHLPstudy/ObjectOrientedProgramming_jyhwang/assets/78784311/0d26f781-9e1c-466c-b834-f7393ebbebac)
 
 - 서브 타입은 언제나 기반(부모) 타입으로 교체할 수 있어야 한다는 원칙
 - LSP는 다형성 원리를 이용하기 위한 원칙
@@ -137,6 +139,7 @@
 - ex ) 자동차 인터페이스의 엑셀은 앞으로 가라는 기능, 뒤로 가게 구현하면 LSP 위반, 느리더라도 앞으로 가야함
 
 ### ISP : 인터페이스 분리 원칙(Interface Segregation Principle)
+![Untitled (3)](https://github.com/OHLPstudy/ObjectOrientedProgramming_jyhwang/assets/78784311/aa826f78-448a-4ab6-a863-2716790d877a)
 
 - 인터페이스를 각각 사용에 맞게 끔 잘게 분리해야  한다는 설계 원칙
 - SRP(단일 책임 원칙)이 클래스의 단일 책임을 강조한다면, ISP는 인터페이스의 단일 책임을 강조하는 것
@@ -152,6 +155,7 @@
 - 인터페이스가 명확해지고, 대체 가능성이 높아진다.
 
 ### DIP : 의존관계 역전 원칙(Dependency Inversion Principle)
+![Untitled (4)](https://github.com/OHLPstudy/ObjectOrientedProgramming_jyhwang/assets/78784311/7b0b9391-55a6-4b9d-ab25-d10b0a7dc070)
 
 - 프로그래머는 “추상화에 의존해야지, 구체화에 의존하면 안된다.” 의존성 주입은 이 원칙을 따르는 방법 중 하나
 - 쉽게 이야기해서 구현 클래스에 의존하지 말고, 인터페이스(역할)에 의존하라는 뜻
