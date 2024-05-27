@@ -40,6 +40,8 @@
     - 다형성의 본질을 이해하려면 협력이라는 객체 사이의 관계에서 시작해야 함
     - 예시 : 운전자-자동차 / 공연
     - 구현 대상의 내부 구조가 변경되거나, 구현 대상 자체가 변경되어도 클라이언트는 영향을 받지 않음
+      ![Untitled](https://github.com/OHLPstudy/ObjectOrientedProgramming_jyhwang/assets/78784311/4a2d9ac6-ee2b-4135-90a7-40d5fb56564b)
+
 2. 추상화
 3. 캡슐화
 4. 상속
