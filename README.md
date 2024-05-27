@@ -40,9 +40,6 @@
     - 다형성의 본질을 이해하려면 협력이라는 객체 사이의 관계에서 시작해야 함
     - 예시 : 운전자-자동차 / 공연
     - 구현 대상의 내부 구조가 변경되거나, 구현 대상 자체가 변경되어도 클라이언트는 영향을 받지 않음
-        
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b3d0209-9dc7-4dfd-a2a7-2be53ae43643/12548ad1-5f2e-4b9c-9143-7b894e46809d/Untitled.png)
-        
 2. 추상화
 3. 캡슐화
 4. 상속
@@ -120,8 +117,6 @@
 
 ### OCP : 개방-폐쇄 원칙(Open/Closed principle)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b3d0209-9dc7-4dfd-a2a7-2be53ae43643/3253c0dd-5873-481d-ab90-76b30f824b52/Untitled.png)
-
 - 클래스는 확장에는 열려 있으나 변경에는 닫혀 있어야 한다.
 - 기능 추가 요청 시 → 클래스 확장을 통해 손쉽게 구현하면서, 확장에 따른 클래스 수정은 최소화
 - 확장에 열려있다 : 새로운 변경 사항이 발생했을 때 유연하게 코드를 추가함으로서 큰 힘을 들이지 않고, 애플리케이션의 기능을 확장할 수 있음
@@ -130,8 +125,6 @@
 - 다형성과 확장을 가능케 하는 객체지향 장점 극대화
 
 ### LSP : 리스코프 치환 원칙(Liskov Substitution Principle)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b3d0209-9dc7-4dfd-a2a7-2be53ae43643/ba8ee418-56dc-4bdd-9ba9-8960e8266e59/Untitled.png)
 
 - 서브 타입은 언제나 기반(부모) 타입으로 교체할 수 있어야 한다는 원칙
 - LSP는 다형성 원리를 이용하기 위한 원칙
@@ -142,8 +135,6 @@
 - ex ) 자동차 인터페이스의 엑셀은 앞으로 가라는 기능, 뒤로 가게 구현하면 LSP 위반, 느리더라도 앞으로 가야함
 
 ### ISP : 인터페이스 분리 원칙(Interface Segregation Principle)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b3d0209-9dc7-4dfd-a2a7-2be53ae43643/267d507f-d042-4188-b6e7-53363d2e9362/Untitled.png)
 
 - 인터페이스를 각각 사용에 맞게 끔 잘게 분리해야  한다는 설계 원칙
 - SRP(단일 책임 원칙)이 클래스의 단일 책임을 강조한다면, ISP는 인터페이스의 단일 책임을 강조하는 것
@@ -159,8 +150,6 @@
 - 인터페이스가 명확해지고, 대체 가능성이 높아진다.
 
 ### DIP : 의존관계 역전 원칙(Dependency Inversion Principle)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/2b3d0209-9dc7-4dfd-a2a7-2be53ae43643/870d33d7-cb4b-4783-9fba-451414b7d666/Untitled.png)
 
 - 프로그래머는 “추상화에 의존해야지, 구체화에 의존하면 안된다.” 의존성 주입은 이 원칙을 따르는 방법 중 하나
 - 쉽게 이야기해서 구현 클래스에 의존하지 말고, 인터페이스(역할)에 의존하라는 뜻
